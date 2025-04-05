@@ -19,6 +19,7 @@ if temp_type == "Cold":
     print("Penyiraman 5 menit")
   else:
     print("Perangkat Error")
+
 elif temp_type == "Normal":
   if moisture_type == "Dry":
     print("Penyiraman 15 menit")
@@ -28,6 +29,7 @@ elif temp_type == "Normal":
     print("Penyirmana 5 menit")
   else:
     print("Perangkat Error")
+
 elif temp_type == "Hot":
   if moisture_type == "Dry":
     print("Penyiraman 15 menit")
@@ -37,5 +39,6 @@ elif temp_type == "Hot":
     print("Penyirman 5 menit")
   else:
     print("Perangkat Error")
+    
 else:
   print("perangkat Error")
